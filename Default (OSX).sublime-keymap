@@ -1,0 +1,66 @@
+[
+	{ "keys": ["super+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["super+p"], "command": "goto_folder"},
+	{ "keys": ["super+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
+
+	{
+	    "keys": ["alt+up"],
+	    "command": "bh_key",
+	    "args":
+	    {
+	        "lines" : true,
+	        "plugin":
+	        {
+	            "type": ["__all__"],
+	            "command": "bh_modules.bracketselect",
+	            "args": {"select": "left"}
+	        }
+	    }
+	},
+	// Go to right bracket
+	{
+	    "keys": ["alt+down"],
+	    "command": "bh_key",
+	    "args":
+	    {
+	        "lines" : true,
+	        "plugin":
+	        {
+	            "type": ["__all__"],
+	            "command": "bh_modules.bracketselect",
+	            "args": {"select": "right"}
+	        }
+	    }
+	},
+	// Select text between brackets
+	{
+	    "keys": ["alt+shift+up"],
+	    "command": "bh_key",
+	    "args":
+	    {
+	        "lines" : true,
+	        "plugin":
+	        {
+	            "type": ["__all__"],
+	            "command": "bh_modules.bracketselect"
+	        }
+	    }
+	},
+	// Select text between brackets
+	{
+	    "keys": ["alt+shift+down"],
+	    "command": "bh_key",
+	    "args":
+	    {
+	        "lines" : true,
+	        "plugin":
+	        {
+	            "type": ["__all__"],
+	            "command": "bh_modules.bracketselect"
+	        }
+	    }
+	}
+
+
+]
