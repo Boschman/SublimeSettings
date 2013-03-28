@@ -1,5 +1,6 @@
 {
 	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Colorized-43025640205788-Monokai.tmTheme",
 	"default_encoding": "Western (Windows 1252)",
 	"default_line_ending": "unix",
 	"draw_minimap_border": true,
@@ -13,10 +14,10 @@
 	],
 	"indent_to_bracket": true,
 	"remember_open_files": false,
+	"shift_tab_unindent": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
-	"word_wrap": false,
-	"shift_tab_unindent": true
+	"word_wrap": false
 }
