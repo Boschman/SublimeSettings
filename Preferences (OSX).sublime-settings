@@ -2,5 +2,6 @@
 	"color_scheme": "Packages/Color Scheme - Default/Colorized-27651769139818-IDLE.tmTheme",
 	"find_selected_text": true,
 	"font_size": 13,
-	"theme": "Soda Dark.sublime-theme"
+	"theme": "Soda Dark.sublime-theme",
+	"open_files_in_new_window": false
 }
