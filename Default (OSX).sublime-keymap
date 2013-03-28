@@ -1,9 +1,20 @@
 [
+	{ "keys": ["super+p"], "command": "goto_folder"},
 	{ "keys": ["super+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-    { "keys": ["super+p"], "command": "goto_folder"},
+	{ "keys": ["super+["], "command": "previous_edit" },
+	{ "keys": ["super+]"], "command": "next_edit" },
 	{ "keys": ["super+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
-	{ "keys": ["super+v"], "command": "paste_and_indent" },
+	{ "keys": ["home"], "command": "move_to", "args": {"to": "hardbol", "extend": false} },
+	{ "keys": ["super+z"], "command": "soft_undo" },
+	{ "keys": ["super+shift+z"], "command": "soft_redo" },
+    { "keys": ["super+j"], "command": "join_lines" },
+    { "keys": ["super+q"], "command": "duplicate_line" },
+    { "keys": ["super+v"], "command": "paste_and_indent" },
 
+    // JS Format: JavaScript opschonen
+    { "keys": ["ctrl+alt+f"], "command": "js_format"},
+
+    // BracketHighlighter: naar vorige bracket
 	{
 	    "keys": ["alt+up"],
 	    "command": "bh_key",
@@ -18,7 +29,7 @@
 	        }
 	    }
 	},
-	// Go to right bracket
+	// BracketHighlighter: naar volgende bracket
 	{
 	    "keys": ["alt+down"],
 	    "command": "bh_key",
@@ -33,7 +44,7 @@
 	        }
 	    }
 	},
-	// Select text between brackets
+	// BracketHighlighter: selecteer
 	{
 	    "keys": ["alt+shift+up"],
 	    "command": "bh_key",
@@ -47,7 +58,7 @@
 	        }
 	    }
 	},
-	// Select text between brackets
+	// BracketHighlighter: selecteer
 	{
 	    "keys": ["alt+shift+down"],
 	    "command": "bh_key",

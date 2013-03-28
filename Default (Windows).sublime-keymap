@@ -3,7 +3,6 @@
 	{ "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 	{ "keys": ["ctrl+["], "command": "previous_edit" },
 	{ "keys": ["ctrl+]"], "command": "next_edit" },
-	{ "keys": ["ctrl+alt+f"], "command": "js_format"},
 	{ "keys": ["ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
 	{ "keys": ["home"], "command": "move_to", "args": {"to": "hardbol", "extend": false} },
 	{ "keys": ["ctrl+z"], "command": "soft_undo" },
@@ -11,6 +10,9 @@
     { "keys": ["ctrl+j"], "command": "join_lines" },
     { "keys": ["ctrl+q"], "command": "duplicate_line" },
     { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+
+    // JS Format: JavaScript opschonen
+    { "keys": ["ctrl+alt+f"], "command": "js_format"},
 
     {
         "keys": ["alt+up"],
@@ -27,6 +29,7 @@
         }
     },
 
+    // BracketHighlighter: naar vorige bracket
     {
         "keys": ["alt+down"],
         "command": "bracket_highlighter_key",
@@ -41,6 +44,7 @@
             }
         }
     },
+    // BracketHighlighter: naar volgende bracket
     {
         "keys": ["alt+shift+down"],
         "command": "bracket_highlighter_key",
@@ -54,7 +58,8 @@
             }
         }
     },
-    {
+    // BracketHighlighter: selecteer
+        {
         "keys": ["alt+shift+up"],
         "command": "bracket_highlighter_key",
         "args":
@@ -67,6 +72,7 @@
             }
         }
     },
+    // BracketHighlighter: selecteer
     {
         "keys": ["f5"], "command": "browser_refresh", "args": {
             "auto_save": true,
