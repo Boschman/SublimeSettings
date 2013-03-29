@@ -6,7 +6,7 @@
 	{ "keys": ["ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
 	{ "keys": ["home"], "command": "move_to", "args": {"to": "hardbol", "extend": false} },
 	{ "keys": ["ctrl+z"], "command": "soft_undo" },
-	{ "keys": ["ctrl+shift+z"], "command": "soft_redo" },
+	{ "keys": ["ctrl+y"], "command": "soft_redo" },
     { "keys": ["ctrl+j"], "command": "join_lines" },
     { "keys": ["ctrl+q"], "command": "duplicate_line" },
     { "keys": ["ctrl+v"], "command": "paste_and_indent" },
